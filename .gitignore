@@ -1,0 +1,11 @@
+*~
+.settings
+.classpath
+.project
+target
+*.PREV
+*.REAL*
+*.propertiesREAL*
+*.properties*img
+*.log
+.DS_Store
