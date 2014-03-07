@@ -69,17 +69,6 @@
       <!-- <version>3.8.1</version> -->
       <scope>test</scope>
     </dependency>
-    
-    <dependency>
-      <groupId>com.woorea</groupId>
-      <artifactId>openstack-client</artifactId>
-      <version>${woorea.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.woorea</groupId>
-      <artifactId>nova-client</artifactId>
-      <version>${woorea.version}</version>
-    </dependency>
     <dependency>
       <groupId>com.woorea</groupId>
       <artifactId>keystone-client</artifactId>
@@ -87,17 +76,7 @@
     </dependency>
     <dependency>
       <groupId>com.woorea</groupId>
-      <artifactId>keystone-model</artifactId>
-      <version>3.2.2-SNAPSHOT</version>
-    </dependency>
-    <dependency>
-      <groupId>com.woorea</groupId>
       <artifactId>glance-client</artifactId>
-      <version>${woorea.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>com.woorea</groupId>
-      <artifactId>openstack-examples</artifactId>
       <version>${woorea.version}</version>
     </dependency>
     <dependency>
@@ -107,12 +86,14 @@
     <dependency>
       <groupId>org.glassfish.jersey.media</groupId>
       <artifactId>jersey-media-moxy</artifactId>
-    </dependency>  
+    </dependency>
+ 
     <dependency>
       <groupId>com.sun.jersey</groupId>
       <artifactId>jersey-client</artifactId>
       <version>1.9</version>
-    </dependency>      
+    </dependency> 
+      
   </dependencies>
   
   <profiles>
